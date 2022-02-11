@@ -13,7 +13,7 @@ function yarn_recipes_block_patterns() {
     register_block_pattern(
         'yarn-recipes-block/yarn-recipes',
         array(
-            'title'       => __( 'Yarn Recipess', 'yarn-recipes' ),
+            'title'       => __( 'Yarn Recipes', 'yarn-recipes' ),
             
             'description' => __( 'Includes a yarn recipes pattern.', 'Block pattern description', 'yarn-recipes' ),
             
