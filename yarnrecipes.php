@@ -6,7 +6,17 @@ Description: Adds Yarn Recipes to the block editor.
 Version: 1.0
 Author: Elisabetta Carrara
 Author URI: https://yarnblog.netsons.org/
+Requires at least: 5.0
+Tested up to: 5.9
+Text Domain: yarn-recipes
 */
+
+/**
+ * This avoids the file being accessed directly.
+ */
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
 
 function yarn_recipes_block_patterns() {
 
